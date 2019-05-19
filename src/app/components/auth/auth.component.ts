@@ -14,7 +14,7 @@ import {AuthService} from '../../services/auth.service';
 })
 export class AuthComponent implements OnInit, OnDestroy {
 
-  private registerForm: FormGroup;
+  public registerForm: FormGroup;
   private submitted = false;
   private isRegistered = false;
 
