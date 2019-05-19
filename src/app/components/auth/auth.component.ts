@@ -14,9 +14,9 @@ import {AuthService} from '../../services/auth.service';
 })
 export class AuthComponent implements OnInit, OnDestroy {
 
-  public registerForm: FormGroup;
-  public submitted = false;
-  public isRegistered = false;
+  registerForm: FormGroup;
+  submitted = false;
+  isRegistered = false;
 
   private formSubscription: Subscription;
   private minPasswordLength = validation.minPasswordLength;
