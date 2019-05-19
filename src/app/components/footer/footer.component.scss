@@ -1,0 +1,22 @@
+@import '../../../assets/styles/variables';
+$footer_color: $main_color;
+
+
+.footer-item {
+  justify-content: center;
+  background-color: $footer_color;
+  padding: 20px;
+}
+
+.footer_menu {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu {
+  flex: 1;
+}
+
+
+
+

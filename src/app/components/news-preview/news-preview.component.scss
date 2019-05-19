@@ -1,0 +1,29 @@
+@import '../../../assets/styles/variables';
+
+$container_color: $secondary_color;
+$font_size_variable: 16px;
+$content_width: 250px;
+
+.background-container {
+  background-color: $container_color;
+}
+.news-preview-container {
+  font-size: $font_size_variable;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.news-preview-content {
+  display: flex;
+  flex-direction: column;
+  width: $content_width;
+  margin: 10px;
+}
+
+@media (max-width: 480px) {
+  .news-preview-container {
+    justify-content: space-around;
+  }
+}

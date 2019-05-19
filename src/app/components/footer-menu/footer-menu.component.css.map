@@ -1,0 +1,10 @@
+{
+	"version": 3,
+	"file": "footer-menu.component.css",
+	"sources": [
+		"footer-menu.component.scss",
+		"../../../assets/styles/_variables.scss"
+	],
+	"names": [],
+	"mappings": "AAGA,AAAA,KAAK,CAAC;EACJ,KAAK,EAAE,KAAK;EACZ,OAAO,EAAE,MAAM,GAChB;;AAED,AAAA,KAAK,CAAC;EACJ,IAAI,EAAE,CAAC,GACR;;AAED,AAAA,MAAM,CAAC;EACL,KAAK,EAZO,OAAO;EAanB,IAAI,EAAE,CAAC,GACR;;AAED,AAAA,UAAU,CAAC;EACT,eAAe,EAAE,IAAI;EACrB,KAAK,ECNY,KAAK,GDOvB"
+}

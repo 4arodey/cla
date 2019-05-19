@@ -1,0 +1,49 @@
+@import "../../../assets/styles/variables";
+$image_border_color: #99CCCB;
+$image_border:1px;
+$image_border_radius: 4px;
+$opacity_color: black;
+$time_animation: $animation_time / 3;
+
+.image-container {
+  display: block;;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  padding: 0;
+  border: 0;
+  margin: 0;;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  margin: 0;;
+}
+
+.image-border {
+  border-radius: $image_border_radius;
+  border: $image_border solid $image_border_color;
+}
+
+.zoom-effect {
+  width: 100%;
+  opacity:0.8;
+  filter: alpha(opacity=80) $opacity_color;
+  background-color:$opacity_color;
+  transition: all $time_animation ease-out $animation_delay;
+  &:hover {
+    opacity:1;
+    filter: alpha(opacity=100) $opacity_color;
+    background-color:$opacity_color;
+    transform: scale(1.1);
+    transition: transform $time_animation ease-out $animation_delay;
+  }
+}
+
+.image-border-round {
+  border-radius: 100%;
+  border: $image_border solid $image_border_color;
+}

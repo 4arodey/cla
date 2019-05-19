@@ -1,0 +1,10 @@
+.news-comments-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column; }
+
+.news-comments {
+  padding: 10px 0 10px 20px;
+  margin: 10px 0 0 0;
+  border: 1px solid #3C968C;
+  border-radius: 15px 50px; }

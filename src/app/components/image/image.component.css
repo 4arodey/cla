@@ -1,0 +1,36 @@
+.image-container {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  padding: 0;
+  border: 0;
+  margin: 0; }
+
+.image {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  margin: 0; }
+
+.image-border {
+  border-radius: 4px;
+  border: 1px solid #99CCCB; }
+
+.zoom-effect {
+  width: 100%;
+  opacity: 0.8;
+  filter: alpha(opacity=80) black;
+  background-color: black;
+  transition: all 0.33333s ease-out 0s; }
+  .zoom-effect:hover {
+    opacity: 1;
+    filter: alpha(opacity=100) black;
+    background-color: black;
+    transform: scale(1.1);
+    transition: transform 0.33333s ease-out 0s; }
+
+.image-border-round {
+  border-radius: 100%;
+  border: 1px solid #99CCCB; }

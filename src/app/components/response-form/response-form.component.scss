@@ -1,0 +1,24 @@
+@import '../../../assets/styles/variables';
+
+$link: $main_link_color;
+
+.success-title {
+  color: $link;
+}
+
+.success-link {
+  font-size: 1.5rem;
+  color: $link;
+}
+
+.congratulation-container {
+  display: flex;
+}
+
+.congratulation-text {
+  font-size: 1.5rem;
+}
+
+.congratulation-image {
+  max-width: 200px;
+}

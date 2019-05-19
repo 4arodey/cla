@@ -1,0 +1,10 @@
+<div class="btn position-{{btnPosition}}">
+  <button
+    [ngClass]="(disable === true) ? 'btn-danger' : '' "
+    [disabled]="disable"
+    [routerLink]="link"
+    class="btn btn-{{type}}"
+  >{{text}}
+  </button>
+</div>
+

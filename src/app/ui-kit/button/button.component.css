@@ -1,0 +1,66 @@
+.btn {
+  color: white;
+  border-radius: 15px;
+  text-decoration: none;
+  font-size: 1rem;
+  outline: none; }
+
+.btn-success {
+  background: #3C968C;
+  border: 0.05rem solid #539994;
+  padding: 0.7rem; }
+  .btn-success:hover {
+    background-color: #307971; }
+  .btn-success:active {
+    background: #183b37; }
+
+.btn-primary {
+  background: #3B5998;
+  border: 0.05rem solid #539994;
+  padding: 0.7rem; }
+  .btn-primary:hover {
+    background-color: #30487b; }
+  .btn-primary:active {
+    background: #17233c; }
+
+.btn-congratulate {
+  background: #3fadee;
+  border: 0.05rem solid #539994;
+  padding: 0.7rem; }
+  .btn-congratulate:hover {
+    background-color: #1a9deb; }
+  .btn-congratulate:active {
+    background: #0e699f; }
+
+.btn-warning {
+  background: #f1c40f;
+  border: 0.05rem solid #539994;
+  padding: 0.7rem; }
+  .btn-warning:hover {
+    background-color: #cba50c; }
+  .btn-warning:active {
+    background: #796307; }
+
+.btn-danger {
+  background: #e74c3c;
+  border: 0.05rem solid #539994;
+  padding: 0.7rem; }
+  .btn-danger:hover {
+    background-color: #df2e1b; }
+  .btn-danger:active {
+    background: #921e12; }
+
+.btn-position {
+  display: flex; }
+
+.position-center {
+  display: flex;
+  justify-content: center; }
+
+.position-left {
+  display: flex;
+  justify-content: flex-start; }
+
+.position-right {
+  display: flex;
+  justify-content: flex-end; }

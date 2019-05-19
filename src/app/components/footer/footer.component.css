@@ -1,0 +1,11 @@
+.footer-item {
+  justify-content: center;
+  background-color: #1B635E;
+  padding: 20px; }
+
+.footer_menu {
+  display: flex;
+  flex-wrap: wrap; }
+
+.menu {
+  flex: 1; }

@@ -1,0 +1,37 @@
+<div class="slider-container">
+  <app-layout-item>
+    <div
+      class="swiper-container"
+      [swiper]="config"
+    >
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <app-image
+            [isBorder]="false"
+            [src]="'https://res.cloudinary.com/dsocr550v/image/upload/v1555517388/major-image_wfgtes_vlt5ml.png'"
+          >
+          </app-image>
+        </div>
+        <div class="swiper-slide">
+          <app-image
+            [isBorder]="false"
+            [src]="'https://res.cloudinary.com/dsocr550v/image/upload/c_scale,w_960/v1553241495/major-image_wfgtes.jpg'"
+          >
+          </app-image>
+        </div>
+        <div class="swiper-slide">
+          <app-image
+            [isBorder]="false"
+            [src]="'https://res.cloudinary.com/dsocr550v/image/upload/v1555253613/major-image_wfgtes_hu4tj9.png'"
+          >
+          </app-image>
+        </div>
+      </div>
+
+      <div class="swiper-pagination"></div>
+
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+  </app-layout-item>
+</div>

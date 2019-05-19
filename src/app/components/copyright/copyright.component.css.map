@@ -1,0 +1,9 @@
+{
+	"version": 3,
+	"file": "copyright.component.css",
+	"sources": [
+		"copyright.component.scss"
+	],
+	"names": [],
+	"mappings": "AAGA,AAAA,UAAU,CAAC;EACT,IAAI,EAAE,CAAC;EACP,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,MAAM,EAAE,aAAa;EACrB,KAAK,EARW,OAAO,GASxB"
+}

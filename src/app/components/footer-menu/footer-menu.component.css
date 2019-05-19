@@ -1,0 +1,17 @@
+.item-container {
+  color: white;
+  padding: 1rem 0 0 0; }
+
+.menu {
+  flex: 1; }
+
+.title {
+  color: #86CCC7;
+  flex: 1; }
+
+.link-item {
+  color: white;
+  text-decoration: none; }
+  .link-item:hover {
+    color: #a6dad9;
+    text-decoration: underline; }

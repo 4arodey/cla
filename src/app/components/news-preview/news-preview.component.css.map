@@ -1,0 +1,9 @@
+{
+	"version": 3,
+	"file": "news-preview.component.css",
+	"sources": [
+		"news-preview.component.scss"
+	],
+	"names": [],
+	"mappings": "AAKA,AAAA,uBAAuB,CAAC;EACtB,SAAS,EALU,IAAI;EAMvB,OAAO,EAAE,IAAI;EACb,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,eAAe,EAAE,YAAY;EAC7B,SAAS,EAAE,IAAI;EACf,gBAAgB,EAZA,yBAAyB,GAa1C;;AAED,AAAA,qBAAqB,CAAC;EACpB,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,KAAK,EAhBS,KAAK;EAiBnB,MAAM,EAAE,IAAI,GACb"
+}

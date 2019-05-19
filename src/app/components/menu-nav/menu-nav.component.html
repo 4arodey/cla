@@ -1,0 +1,9 @@
+<div class="menu-nav">
+  <a *ngFor="let link of links; let i = index"
+     [routerLink]="link"
+     [routerLinkActive]="'active-link'"
+     class="link">
+    <fa class="icon" [name]="icons[i]"></fa>
+    {{items[i]}}
+  </a>
+</div>

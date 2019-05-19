@@ -1,0 +1,22 @@
+<div
+  [ngClass]= "
+    (isBorder === true)
+    ? 'image-border'
+    : ''
+  "
+  class="image-container"
+>
+  <img
+    [ngClass]="[
+      (isZoom === true)
+      ? 'zoom-effect'
+      : '',
+      (isRound === true)
+      ? 'image-border-round'
+      : ''
+    ] "
+    [src] = "src"
+    [alt]="alt" class="image"
+  >
+</div>
+

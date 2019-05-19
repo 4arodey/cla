@@ -1,0 +1,46 @@
+<nav class="header">
+  <app-layout-item>
+    <div class="menu">
+      <div class="menu-logo">
+        <a routerLink="/">
+          <img src="https://res.cloudinary.com/dsocr550v/image/upload/c_scale,h_35/v1554208102/logo-indent_efobvh.png" alt="island">
+        </a>
+      </div>
+      <div class="menu-nav">
+        <app-menu-nav
+          [links]="['/about-game', '/how-to-play', '/play-online']"
+          [items]="['ABOUT GAME', 'HOW TO PLAY', 'PLAY ONLINE']"
+          [icons]="['info-circle', 'question-circle', 'globe']"
+        ></app-menu-nav>
+      </div>
+      <div
+
+        class="menu-auth"
+      >
+        <span
+          *ngIf="token == undefined"
+        >
+          <app-menu-auth
+            [links]="['/login']"
+            [items]="['LOG IN']"
+          ></app-menu-auth>
+          <span class="diliver">|</span>
+          <app-menu-auth
+            [links]="['/signup']"
+            [items]="['SIGN UP']"
+          ></app-menu-auth>
+        </span>
+        <span
+          *ngIf="token != undefined"
+        >
+          <app-menu-auth
+            [links]="['/profile']"
+            [items]="['PROFILE']"
+          ></app-menu-auth>
+          <span class="diliver">|</span>
+          <button (click)="logOut('token')">Log Out</button>
+     </span>
+      </div>
+    </div>
+  </app-layout-item>
+</nav>

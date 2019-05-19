@@ -1,0 +1,25 @@
+.menu-auth {
+  flex: 4;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+.icon {
+  padding-right: 10px; }
+
+.link {
+  border: none;
+  padding: 1rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0.25rem 0.125rem;
+  cursor: pointer;
+  color: white; }
+  .link:hover {
+    color: #c2efea; }
+
+.active-link {
+  color: #86CCC7; }
+  .active-link:hover {
+    color: #86CCC7; }

@@ -1,0 +1,19 @@
+.background-container {
+  background-color: #BAE6E2; }
+
+.news-preview-container {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+
+.news-preview-content {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  margin: 10px; }
+
+@media (max-width: 480px) {
+  .news-preview-container {
+    justify-content: space-around; } }

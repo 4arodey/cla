@@ -1,0 +1,73 @@
+$default_color: white;
+$success_color: #3C968C;
+$primary_color: #3B5998;
+$warning_color: #f1c40f;
+$congratulate-color: #3fadee;
+$danger_color: #e74c3c;
+$border_color: #539994;
+
+$border: 0.05rem;
+$border_radius: 15px;
+
+@mixin button-bg($bg) {
+  background: $bg;
+  border: $border solid $border_color;
+  padding: 0.7rem;
+  &:hover {
+    background-color:darken($bg,8%);
+  }
+  &:active {
+    background:darken($bg,25%);
+  }
+}
+
+@mixin button-position($position) {
+  display: flex;
+  justify-content: $position;
+}
+
+.btn {
+  color: $default_color;
+  border-radius: $border_radius;
+  text-decoration:none;
+  font-size:1rem;
+  outline: none;
+}
+
+
+
+.btn-success {
+  @include button-bg($success_color);
+}
+
+.btn-primary {
+  @include button-bg($primary_color);
+}
+
+.btn-congratulate {
+  @include button-bg($congratulate-color);
+}
+
+.btn-warning{
+  @include button-bg($warning_color);
+}
+
+.btn-danger {
+  @include button-bg($danger_color);
+}
+
+.btn-position {
+  display: flex;
+}
+
+.position-center {
+  @include button-position(center);
+}
+.position-left {
+  @include button-position(flex-start);
+}
+
+.position-right {
+  @include button-position(flex-end);
+}
+

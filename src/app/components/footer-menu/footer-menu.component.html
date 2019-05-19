@@ -1,0 +1,11 @@
+<p class="title">{{title}}</p>
+  <ul style="width: 200px" *ngFor="let link of links, let i = index">
+    <li class="item-container">
+      <a class="link-item"
+         [routerLink]="link"
+         [routerLinkActive]="'active-link'"
+      >
+        {{items[i]}}
+      </a>
+    </li>
+  </ul>

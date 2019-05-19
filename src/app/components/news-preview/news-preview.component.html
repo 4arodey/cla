@@ -1,0 +1,16 @@
+<div class="background-container">
+  <app-layout-item [paddingBottom]="true" [paddingTop]="true">
+    <app-text
+      [paddingBottom]="true"
+      [text]="'MAIN NEWS'"
+    ></app-text>
+    <div class="news-preview-container">
+      <app-news-preview-item
+        *ngFor="let news of title; let i = index;"
+        [title]="title[i]"
+        [text]="text[i]"
+        [imageSrc]="imageSrc[i]">
+      </app-news-preview-item>
+    </div>
+  </app-layout-item>
+</div>

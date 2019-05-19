@@ -1,0 +1,29 @@
+<div class="image-container">
+  <app-image
+    [src]="'https://res.cloudinary.com/dsocr550v/image/upload/c_scale,h_250/v1555252731/6_pme0lf.png'"
+  >
+  </app-image>
+</div>
+<div class="content">
+  <div class="header-line">
+    <h1 class="name">
+      Oleg Karpach
+    </h1>
+    <p class="status">
+      Статус
+    </p>
+    <div class="information">
+      <app-list
+        [title]="'Информация о пользователе'"
+        [items]="[
+        'Информация о пользоватле:',
+        'Возраст: 18 лет',
+        'Страна: Беларусь',
+        'Часов в игре: 180'
+      ]"
+      >
+      </app-list>
+    </div>
+  </div>
+</div>
+

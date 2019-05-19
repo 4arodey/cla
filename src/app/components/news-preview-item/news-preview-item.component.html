@@ -1,0 +1,24 @@
+<div class="news-item-container">
+  <a class="link" [routerLink]="'news'">
+    <app-image
+      [isBorder]="false"
+      [src]="imageSrc"
+      [isZoom]="true"
+    >
+    </app-image>
+    <div
+      class="content-container">
+      <p class="title">
+        {{title}}
+      </p>
+      <p class="text">
+        {{text}}
+      </p>
+    </div>
+  </a>
+</div>
+
+
+
+
+

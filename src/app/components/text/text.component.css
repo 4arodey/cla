@@ -1,0 +1,13 @@
+.text {
+  display: flex;
+  justify-content: center;
+  color: #3C968C; }
+
+.paddingTop {
+  padding-top: 1.4rem; }
+
+.paddingBottom {
+  padding-bottom: 1.4rem; }
+
+.isNotPadding {
+  padding-top: 0; }

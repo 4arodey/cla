@@ -1,0 +1,24 @@
+.image-container {
+  position: absolute;
+  max-width: 200px; }
+
+.content {
+  background: #a6dad9;
+  height: 650px;
+  margin-left: 40px; }
+
+.header-line {
+  background: #99CCCB;
+  padding-left: 200px;
+  height: 100px; }
+
+.name {
+  font-size: 2rem;
+  padding-top: 20px; }
+
+.status {
+  color: #1B635E; }
+
+.information {
+  font-size: 1.2rem;
+  padding-top: 60px; }

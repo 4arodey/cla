@@ -1,0 +1,28 @@
+@import '../../../assets/styles/variables';
+
+$link_color: white;
+$title_color: $secondary_text_color;
+$hover_link_color: $quaternary_color;
+
+.item-container {
+  color: $link_color;
+  padding: 1rem 0 0 0
+}
+
+.menu {
+  flex: 1;
+}
+
+.title {
+  color: $title_color;
+  flex: 1;
+}
+
+.link-item {
+  color: $link_color;
+  text-decoration: none;
+  &:hover {
+    color: $hover_link_color;
+    text-decoration: underline;
+  }
+}

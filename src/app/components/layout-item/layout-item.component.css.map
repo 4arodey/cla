@@ -1,0 +1,10 @@
+{
+	"version": 3,
+	"file": "layout-item.component.css",
+	"sources": [
+		"layout-item.component.scss",
+		"../../../assets/styles/_variables.scss"
+	],
+	"names": [],
+	"mappings": "AAEA,AAAA,sBAAsB,CAAC;EACrB,SAAS,ECDa,KAAK;EDE3B,MAAM,EAAE,IAAI,GACb"
+}

@@ -1,0 +1,36 @@
+@import '../../../assets/styles/variables';
+
+$active_link_color: $secondary_text_color;
+$hover_link_color: $tertiary_text_color;
+
+.menu-auth {
+  flex: 4;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.icon {
+  padding-right: 10px;
+}
+
+.link {
+  border: none;
+  padding: 1rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0.25rem 0.125rem;
+  cursor: pointer;
+  color: white;
+  &:hover {
+    color: $hover_link_color;
+  }
+}
+
+.active-link {
+  color: $active_link_color;
+  &:hover {
+    color: $active_link_color;
+  }
+}

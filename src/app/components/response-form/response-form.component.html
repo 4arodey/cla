@@ -1,0 +1,24 @@
+<div class="congratulation-container">
+  <div>
+    <img
+      class="congratulation-image"
+      [src]="imageUrl"
+      alt="">
+  </div>
+  <div>
+    <p class="success-title">
+      {{title}}
+    </p>
+    <hr>
+    <p class="congratulation-text">
+      {{text}}
+    </p>
+    <app-button
+      [btnPosition]="'right'"
+      [type]="'success'"
+      [text]="'Got it'"
+      [routerLink]="routeLink"
+    >
+    </app-button>
+  </div>
+</div>

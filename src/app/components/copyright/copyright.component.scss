@@ -1,0 +1,12 @@
+@import '../../../assets/styles/variables';
+
+$copyright_color: $secondary_text_color;
+
+
+.copyright {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  margin: 40px 0 10px 0;
+  color: $copyright_color;
+}

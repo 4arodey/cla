@@ -1,0 +1,15 @@
+.success-title {
+  color: #3fadee; }
+
+.success-link {
+  font-size: 1.5rem;
+  color: #3fadee; }
+
+.congratulation-container {
+  display: flex; }
+
+.congratulation-text {
+  font-size: 1.5rem; }
+
+.congratulation-image {
+  max-width: 200px; }

@@ -1,0 +1,11 @@
+$main_color: #3C968C;
+
+.news-rating-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.news-rating {
+  justify-content: space-around;
+  color: $main_color;
+}

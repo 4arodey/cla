@@ -1,0 +1,33 @@
+@import 'assets/styles/base/cssReset';
+@import 'assets/styles/base/customReset';
+@import 'assets/styles/variables';
+@import 'assets/styles/components/slider';
+@import 'assets/styles/fonts';
+
+
+$main_color: $secondary_color;
+$text: $text_color;
+
+
+:root {
+  font-size: $font_size_variable;
+  line-height: 1.428;
+}
+html,
+body {
+  background: $main_color;
+  font-size: $font_size_variable;
+  color: $text;
+  height: 100%;
+  font-family: Roboto;
+}
+
+.game-image-container {
+  width: 100%;
+}
+
+.game-image {
+  width: 100%;
+}
+
+

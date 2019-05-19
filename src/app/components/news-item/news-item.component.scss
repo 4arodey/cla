@@ -1,0 +1,24 @@
+@import '../../../assets/styles/variables';
+@import '../../../assets/styles/helpers/mixins';
+$text_color: $text_color;
+
+
+.news-container {
+  padding: 30px;
+  color: $text_color;
+  font-size: $font_size_secondary_variable;
+}
+.news-title {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+}
+.news-img-container {
+  margin: 5% 15% 5% 15%;
+}
+.news-image {
+  width: 100%;
+}
+.news-text {
+
+}

@@ -1,0 +1,36 @@
+<footer class="footer-item">
+    <app-layout-item>
+      <div class="footer_menu">
+        <div class="menu">
+          <app-footer-menu
+            [title]="'CONNECT WITH US'"
+            [items]="['VKontakte', 'Instagram', 'Send Email']"
+            [links]="['https://vk.com', 'https://instagram.com', 'https://gamil.com']"
+          ></app-footer-menu>
+        </div>
+        <div class="menu">
+          <app-footer-menu
+            [title]="'HELP'"
+            [links]="['/about-us']"
+            [items]="['About Us']"
+          ></app-footer-menu>
+        </div>
+        <div class="menu">
+          <app-footer-menu
+            [title]="'INFORMATION'"
+            [links]="['/map']"
+            [items]="['Map']"
+          ></app-footer-menu>
+        </div>
+        <div class="menu">
+          <app-footer-menu
+            [title]="'CONTACT US'"
+            [links]="['/call']"
+            [items]="['Call']"
+          ></app-footer-menu>
+        </div>
+      </div>
+    </app-layout-item>
+    <app-copyright></app-copyright>
+</footer>
+

@@ -1,0 +1,10 @@
+{
+	"version": 3,
+	"file": "footer.component.css",
+	"sources": [
+		"footer.component.scss",
+		"../../../assets/styles/_variables.scss"
+	],
+	"names": [],
+	"mappings": "AAGA,AAAA,YAAY,CAAC;EACX,eAAe,EAAE,MAAM;EACvB,gBAAgB,ECCL,OAAO;EDAlB,OAAO,EAAE,IAAI;EACb,KAAK,ECGM,KAAK,GDFjB;;AAED,AAAA,YAAY,CAAC;EACX,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,IAAI,GAChB;;AAED,AAAA,KAAK,CAAC;EACJ,IAAI,EAAE,CAAC,GACR"
+}

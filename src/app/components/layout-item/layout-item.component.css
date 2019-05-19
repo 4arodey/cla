@@ -1,0 +1,15 @@
+.layout-item-container {
+  max-width: 960px;
+  margin: auto; }
+
+.has-padding-top {
+  padding-top: 40px; }
+
+.has-padding-bottom {
+  padding-bottom: 40px; }
+
+.has-padding-left {
+  padding-left: 40px; }
+
+.has-padding-right {
+  padding-right: 40px; }

@@ -1,0 +1,22 @@
+<app-layout-item
+  [paddingRight]="true"
+  [paddingLeft]="true"
+  [paddingTop]="true"
+  [paddingBottom]="true"
+>
+  <h1 class="title">
+    {{title}}
+  </h1>
+  <div class="container">
+    <p class="text">
+      <ng-content></ng-content>
+    </p>
+    <div class="image">
+      <app-image
+        [isBorder]="isBorder"
+        [src]="imageUrl"
+      >
+      </app-image>
+    </div>
+  </div>
+</app-layout-item>

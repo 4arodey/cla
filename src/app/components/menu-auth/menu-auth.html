@@ -1,0 +1,9 @@
+<a
+   *ngFor="let link of links; let i = index;"
+   (click)="click"
+   [routerLink]="link"
+   [routerLinkActive]="'active-link'"
+     class="link">
+    {{items[i]}}
+</a>
+

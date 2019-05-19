@@ -1,0 +1,11 @@
+{
+	"version": 3,
+	"file": "full-news.component.css",
+	"sources": [
+		"full-news.component.scss",
+		"../../../assets/styles/_variables.scss",
+		"../../../assets/styles/helpers/_mixins.scss"
+	],
+	"names": [],
+	"mappings": "AAGA,AAAA,eAAe,CAAC;EACd,OAAO,EAAE,IAAI,GACd;;AACD,AAAA,WAAW,CAAC;EACV,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM,GACxB;;AACD,AAAA,mBAAmB,CAAC;EAClB,MAAM,EAAE,aAAa,GACtB;;AACD,AAAA,WAAW,CAAC;EACV,aAAa,ECXO,GAAG;EDYvB,KAAK,EAAE,IAAI,GACZ"
+}

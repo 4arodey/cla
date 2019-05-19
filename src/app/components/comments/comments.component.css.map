@@ -1,0 +1,10 @@
+{
+	"version": 3,
+	"file": "comments.component.css",
+	"sources": [
+		"comments.component.scss",
+		"../../../assets/styles/_variables.scss"
+	],
+	"names": [],
+	"mappings": "AAGA,AAAA,wBAAwB,CAAC;EACvB,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,UAAU;EAC3B,cAAc,EAAE,MAAM,GACvB;;AACD,AAAA,cAAc,CAAC;EACb,OAAO,EAAE,gBAAgB;EACzB,MAAM,EAAE,UAAU;EAClB,MAAM,EAAE,GAAG,CAAC,KAAK,CCDN,KAAK;EDEhB,aAAa,EAAE,SAAS,GACzB"
+}

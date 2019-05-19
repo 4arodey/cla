@@ -1,0 +1,139 @@
+@import '../../../assets/styles/variables';
+
+$background_color: white;
+$default_color: #16a085;
+$facebook_color: #32508E;
+$twitter_color: #55ACEE;
+$google_color: #DD4B39;
+$border_button: #AAA;
+$text_color: #000;
+$title_color: #3C968C;
+$link: $main_link_color;
+
+
+.login-box {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 15%;
+}
+
+.login-container {
+  flex: 1;
+}
+
+.social-container {
+  flex: 1;
+  justify-content: center;
+}
+
+.title {
+  font-weight: 300;
+  font-size: 28px;
+  padding: 0 0 2rem 0;
+  color: $title_color;
+}
+
+input[type="text"],
+input[type="password"] {
+  display: block;
+  box-sizing: border-box;
+  padding: 4px;
+  width: 220px;
+  height: 32px;
+  border: none;
+  border-bottom: 1px solid $border_button;
+  font-weight: 400;
+  font-size: 15px;
+  transition: 0.2s ease;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  border-bottom: 2px solid $default_color;
+  color: $default_color;
+  transition: 0.2s ease;
+}
+
+input[type="submit"] {
+  margin-top: 28px;
+  width: 120px;
+  height: 32px;
+  background: $default_color;
+  border: none;
+  border-radius: 2px;
+  color: $background_color;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: 0.1s ease;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+  opacity: 0.8;
+  transition: 0.1s ease;
+}
+
+input[type="submit"]:active {
+  opacity: 1;
+  transition: 0.1s ease;
+}
+
+button.social-signin {
+  width: 220px;
+  height: 36px;
+  border: none;
+  border-radius: 2px;
+  color: $background_color;
+  font-weight: 500;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+button.social-signin.facebook {
+  background: $facebook_color;
+}
+
+button.social-signin.twitter {
+  background: $twitter_color;
+}
+
+button.social-signin.google {
+  background: $google_color;
+}
+.is-valid-text {
+  //display: none;
+  color: $google_color;
+}
+
+.is-invalid {
+  outline: none !important;
+  border-color: $google_color;
+  box-shadow: 0 0 10px $google_color;
+}
+
+.is-invalid-text {
+  display: block;
+  color: $google_color;
+}
+
+.invalid-feedback {
+  color: $google_color;
+  padding: 0 0 1rem 0;
+}
+
+.error-container {
+  display: flex;
+}
+
+.error-message {
+  padding-bottom: 2rem;
+}
+
+.success-container {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,26 @@
+@import '../../../assets/styles/variables';
+
+$layout_item_max_width: 960px;
+$padding: 40px;
+
+
+.layout-item-container {
+  max-width: $layout_item_max_width;
+  margin: auto;
+}
+
+.has-padding-top {
+  padding-top: $padding;
+}
+
+.has-padding-bottom {
+  padding-bottom: $padding;
+}
+
+.has-padding-left {
+  padding-left: $padding;
+}
+
+.has-padding-right {
+  padding-right: $padding;
+}

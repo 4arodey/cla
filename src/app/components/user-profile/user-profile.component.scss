@@ -1,0 +1,39 @@
+@import '../../../assets/styles/variables';
+$line_color: $quaternary_color;
+$background_color: $primary_color;
+$status_color: $main_color;
+$image_width: 200px;
+$content_height: 650px;
+$header_line_height: 100px;
+
+
+.image-container {
+  position: absolute;
+  max-width: $image_width;
+}
+
+.content {
+  background: $line_color;
+  height: $content_height;
+  margin-left: 40px
+}
+
+.header-line {
+  background: $background_color;
+  padding-left: 200px;
+  height: $header_line_height;
+}
+
+.name {
+  font-size: 2rem;
+  padding-top: 20px;
+}
+
+.status {
+  color: $status_color;
+}
+
+.information {
+  font-size: 1.2rem;
+  padding-top: 60px;
+}

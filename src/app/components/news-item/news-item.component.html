@@ -1,0 +1,22 @@
+<app-layout-item>
+  <div class="news-container">
+    <div class="news">
+      <div class="news-title">
+        <h1>{{title}}</h1>
+      </div>
+      <div class="news-img-container">
+        <app-image
+          [src]="image"
+        >
+        </app-image>
+      </div>
+      <div class="news-text">
+        <p>
+          {{text}}
+        </p>
+      </div>
+      <app-news-rating>
+      </app-news-rating>
+    </div>
+  </div>
+</app-layout-item>

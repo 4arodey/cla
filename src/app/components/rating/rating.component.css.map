@@ -1,0 +1,9 @@
+{
+	"version": 3,
+	"file": "rating.component.css",
+	"sources": [
+		"rating.component.scss"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,sBAAsB,CAAC;EACrB,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,QAAQ,GAC1B;;AAED,AAAA,YAAY,CAAC;EACX,eAAe,EAAE,YAAY,GAC9B"
+}
