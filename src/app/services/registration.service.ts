@@ -9,7 +9,6 @@ import {environment} from '../../environments/environment';
 export class RegistrationService {
 
   private formSubscription: Subscription;
-  private apiUrl = environment.apiUrl;
 
   constructor(
     private httpClient: HttpClient
@@ -17,7 +16,7 @@ export class RegistrationService {
   }
   public postData(registerForm) {
     this.formSubscription = this
-      .httpClient.post(`${this.apiUrl}users`,
+      .httpClient.post(`http://localhost:3012/api/v1/users`,
         {
           email: registerForm.value.email,
           password: registerForm.value.password,
